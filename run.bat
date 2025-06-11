@@ -1,6 +1,6 @@
 @echo off
 set JMETER_VERSION=5.6.3
-set JMETER_HOME=apache-jmeter-%JMETER_VERSION%
+set JMETER_HOME=c:\apps\apache-jmeter-%JMETER_VERSION%
 set TEST_PLAN=langgraph-platform-test.jmx
 set OUTPUT_DIR=jmeter-results
 set DATE=%date:~-4,4%%date:~-7,2%%date:~-10,2%_%time:~0,2%%time:~3,2%
