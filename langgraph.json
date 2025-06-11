@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "name": "weather-assistant",
+  "description": "A simple weather assistant using LangGraph and OpenAI",
+  "entrypoint": "app.py",
+  "env": {
+    "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+  },
+  "dependencies": {
+    "langchain-core": "^0.3.64",
+    "langchain-openai": "^0.3.22",
+    "python-dotenv": "^1.1.0"
+  },
+  "graphs": {
+    "weather_assistant": "app:agent"
+  }
+}
