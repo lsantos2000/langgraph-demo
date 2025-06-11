@@ -88,7 +88,7 @@
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.value">
                     {
-                      "graph_id": "sow_agent_graph",
+                      "graph_id": "my_agent_graph",
                       "name": "LangGraph Assistant",
                       "description": "Assistant to start LangGraph"
                     }
