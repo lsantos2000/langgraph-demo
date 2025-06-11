@@ -1,6 +1,6 @@
 # LangGraph Demo Application
 
-A simple demo application using LangGraph and LangChain to create a basic conversational AI.
+A simple demo application using LangGraph and LangChain to create a basic conversational AI, plus a jmeter suite.
 
 ## Setup
 
